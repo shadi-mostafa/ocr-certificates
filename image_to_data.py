@@ -3,6 +3,7 @@ import cv2
 import pytesseract
 from pytesseract import Output
 
+# read image file
 img = cv2.imread('sample.jpg')
 d = pytesseract.image_to_data(img, output_type=Output.DICT)
 keys = list(d.keys())
