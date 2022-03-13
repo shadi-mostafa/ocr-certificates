@@ -1,4 +1,6 @@
 # custom igonelist
+*.jpg
+*.jpeg
 *.png
 
 # Byte-compiled / optimized / DLL files
